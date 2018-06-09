@@ -532,5 +532,13 @@ public class DTNHost implements Comparable<DTNHost> {
 	public int compareTo(DTNHost h) {
 		return this.getAddress() - h.getAddress();
 	}
+	
+	public int getConnectionCount() {
+		int sum = 0;
+		for (NetworkInterface i : net) {
+			sum += i.connectionCount();
+		}
+		return sum;
+	}
 
 }

@@ -312,6 +312,9 @@ public class SprayAndFocusRouter extends ActiveRouter
 	}
 
 	private Object tryMessagesToAllConnections(List<Message> messages) {
+		if (getConnectionCount() == 0 || this.getNrofMessages() == 0) {
+			return null;
+		}
 		this.sortByQueueMode(messages);
 
 		for (Connection con : getHost().getConnections()) {
@@ -360,5 +363,9 @@ public class SprayAndFocusRouter extends ActiveRouter
 		{
 			this.seenAtTime = atTime;
 		}
+	}
+	
+	protected int getConnectionCount() {
+		return getHost().getConnectionCount();
 	}
 }
