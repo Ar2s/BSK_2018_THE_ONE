@@ -2,4 +2,4 @@
 
 The Opportunistic Network Environment simulator.
 
-For instructions on how to get started, see [README](https://github.com/akeranen/the-one/wiki/README).
+Projekt zawiera stworzony na potrzeby zaliczenia z BSK protokół routing.
