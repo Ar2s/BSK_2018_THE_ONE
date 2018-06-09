@@ -1,0 +1,20 @@
+Message stats for scenario MyScenarioUnmodified
+sim_time: 50000.0000
+created: 1626
+started: 134386
+relayed: 121589
+aborted: 12775
+dropped: 71266
+removed: 0
+delivered: 224
+delivery_prob: 0.1378
+response_prob: 0.0000
+overhead_ratio: 541.8080
+latency_avg: 18281.0045
+latency_med: 18276.0000
+hopcount_avg: 5.1027
+hopcount_med: 4
+buffertime_avg: 6910.2225
+buffertime_med: 2340.0000
+rtt_avg: NaN
+rtt_med: NaN
