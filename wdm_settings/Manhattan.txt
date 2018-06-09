@@ -1,5 +1,5 @@
 
-Scenario.name = MyScenarioUnmodified
+Scenario.name = SprayAndFocusRouter
 Scenario.simulateConnections = true
 Scenario.updateInterval = 1
 # 43k ~= 12h
@@ -13,7 +13,7 @@ Scenario.nrofHostGroups = 3
 ###################################
 ### common settings for all groups
 Group.movementModel = MapBasedMovement
-Group.router = EpidemicRouter
+Group.router = SprayAndFocusRouter
 Group.bufferSize = 100M
 Group.transmitRange = 10
 # transmit speed of 2 Mbps = 250kBps
@@ -113,6 +113,8 @@ Report.report8 = ContactsPerHourReport
 ProphetRouter.secondsInTimeUnit = 30
 SprayAndWaitRouter.nrofCopies = 6
 SprayAndWaitRouter.binaryMode = true
+SprayAndFocusRouter.nrofCopies = 10
+SprayAndFocusRouter.binaryMode = true
 
 
 ## Optimization settings -- these affect the speed of the simulation
