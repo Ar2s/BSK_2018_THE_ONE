@@ -113,7 +113,7 @@ Report.report8 = ContactsPerHourReport
 ProphetRouter.secondsInTimeUnit = 30
 SprayAndWaitRouter.nrofCopies = 6
 SprayAndWaitRouter.binaryMode = true
-SprayAndFocusRouter.nrofCopies = 10
+SprayAndFocusRouter.nrofCopies = 6
 SprayAndFocusRouter.binaryMode = true
 
 

@@ -253,7 +253,7 @@ public class SprayAndFocusRouter extends ActiveRouter {
 				// Get the timestamp of the last time this Host saw the destination
 				double thisLastSeen = getLastEncounterTimeForHost(dest);
 
-				for (Connection c : getHost().getConnections())
+				for (Connection c : getConnections())
 				// for(Connection c : getConnections())
 				{
 					DTNHost peer = c.getOtherNode(getHost());
